@@ -1,12 +1,14 @@
-Curveball New Package
-=====================
+React Middleware for Curveball
+==============================
 
-This repository serves as the skeleton for all new [Curveball][1] packages.
+This package adds first-class [React][1] SSR support to [Curveball][1].
+
+This package is a work in progress and not ready for production
 
 Installation
 ------------
 
-    npm install @curveball/new-package 
+    npm install @curveball/react
 
 
 Getting started
@@ -20,3 +22,4 @@ API
 ...
 
 [1]: https://github.com/curveball/
+[2]: https://reactjs.org/

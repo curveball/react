@@ -1,7 +1,7 @@
 {
-  "name": "@curveball/new-package",
-  "version": "0.0.1",
-  "description": "Description goes here",
+  "name": "@curveball/react",
+  "version": "0.1.0",
+  "description": "First-class React support in Curveball for SSR",
   "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "make build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curveball/new-package.git"
+    "url": "git+https://github.com/curveball/react.git"
   },
   "files": [
     "package.json",
@@ -31,24 +31,26 @@
   "author": "Evert Pot (https://evertpot.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/curveball/new-package/issues"
+    "url": "https://github.com/curveball/react/issues"
   },
-  "homepage": "https://github.com/curveball/new-package#readme",
+  "homepage": "https://github.com/curveball/react#readme",
   "devDependencies": {
-    "@curveball/core": "^0.14.2",
+    "@curveball/core": "^0.16.0-beta.0",
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
     "@types/node": "^12.19.8",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@types/sinon": "^9.0.7",
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
     "chai": "^4.2.0",
     "eslint": "^7.10.0",
     "mocha": "^8.1.3",
     "nyc": "^15.1.0",
     "sinon": "^9.1.0",
     "ts-node": "^9.1.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.1.3"
   },
   "types": "dist/",
   "nyc": {
@@ -57,7 +59,7 @@
     ]
   },
   "peerDependencies": {
-    "@curveball/core": ">=0.11 <1"
+    "@curveball/core": "^0.16.0-beta.0"
   },
   "mocha": {
     "require": "ts-node/register",
@@ -68,5 +70,8 @@
       "tsx"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
