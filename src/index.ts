@@ -1,4 +1,4 @@
-import { Middleware } from '@curveball/core';
+import { Middleware } from '@curveball/kernel';
 import * as React from 'react';
 import * as ReactDOMServer from 'react-dom/server';
 
