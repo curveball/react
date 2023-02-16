@@ -1,6 +1,6 @@
 {
   "name": "@curveball/react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "First-class React support in Curveball for SSR",
   "type": "module",
   "exports": {
